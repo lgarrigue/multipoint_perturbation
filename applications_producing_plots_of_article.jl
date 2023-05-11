@@ -521,8 +521,9 @@ end
 expansive = true # whether we do expansive computations, to have converged (in the number of planewaves used to discretiez the Hilbert's space) plots, or whether we just want to make rapid tests
 
 # Schrödinger
-plot_v_and_ψ()
+
 apply_compare_schrodinger(expansive)
+plot_v_and_ψ()
 plot_heatmaps(expansive;reso=150)
 delta_g_to_zero(expansive)
 convergence_basis_N()
