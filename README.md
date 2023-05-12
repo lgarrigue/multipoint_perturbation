@@ -1,4 +1,4 @@
-Run by launching Julia, then write include(".jl")
+This code contains the structures and functions enabling to create and apply multipoint perturbation up to second order and standard perturbation up to third order, to periodic Schrödinger operators. It produces the plots of the article **A multipoint perturbation formula for eigenvalue problems**, written by Benjamin Stamm, Louis Garrigue and Geneviève Dusson.
 
 ## How to run the code
 Open Julia with
@@ -16,3 +16,4 @@ The libraries used are
 - for using Schrödinger operators : FFTW
 - for plotting functions : CairoMakie, LaTeXStrings
 
+One may have problems with the used version of LaTeXStrings
