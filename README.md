@@ -16,4 +16,4 @@ The libraries used are
 - for using Schrödinger operators : FFTW
 - for plotting functions : CairoMakie, LaTeXStrings
 
-One may have problems with the used version of LaTeXStrings
+One may have problems with the used version of LaTeXStrings. Moreover, we use the version 1.9 of Julia
